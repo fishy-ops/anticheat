@@ -1,0 +1,225 @@
+{
+  "config": {
+    "n_cal": 4000,
+    "n_test_legit": 1500,
+    "n_cheat": 400,
+    "seed": 7
+  },
+  "scales": {
+    "aim": 1.8830996522225443,
+    "speed": 9.280061768604416
+  },
+  "fpr": {
+    "0.001": {
+      "_tau": 1.9449852390874527,
+      "_test_fpr": 0.0006666666666666666,
+      "aimbot_blatant": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 3.3706465315341205,
+        "ttd_p90_s": 11.149328491305704,
+        "detected_within_10s": 0.8675,
+        "detected_within_30s": 1.0
+      },
+      "aimbot_subtle": {
+        "detection_rate": 0.7125,
+        "ttd_median_s": 34.36151850064424,
+        "ttd_p90_s": 73.52015759395925,
+        "detected_within_10s": 0.0525,
+        "detected_within_30s": 0.31
+      },
+      "speed_blatant": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 2.247555556904473,
+        "ttd_p90_s": 7.333971324759461,
+        "detected_within_10s": 0.9475,
+        "detected_within_30s": 0.9975
+      },
+      "speed_subtle": {
+        "detection_rate": 0.9875,
+        "ttd_median_s": 11.274989974851856,
+        "ttd_p90_s": 34.34321768757952,
+        "detected_within_10s": 0.4725,
+        "detected_within_30s": 0.8525
+      },
+      "_fp_by_legit_kind": {
+        "legit": 0.0,
+        "legit_laggy": 0.0,
+        "legit_pro": 0.007751937984496124
+      }
+    },
+    "0.01": {
+      "_tau": 1.1382790160668976,
+      "_test_fpr": 0.009333333333333334,
+      "aimbot_blatant": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 3.3706465315341205,
+        "ttd_p90_s": 11.149328491305704,
+        "detected_within_10s": 0.8675,
+        "detected_within_30s": 1.0
+      },
+      "aimbot_subtle": {
+        "detection_rate": 0.92,
+        "ttd_median_s": 20.32989604740641,
+        "ttd_p90_s": 57.83543928404823,
+        "detected_within_10s": 0.2225,
+        "detected_within_30s": 0.6075
+      },
+      "speed_blatant": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 1.654858636758,
+        "ttd_p90_s": 6.520537015665206,
+        "detected_within_10s": 0.9675,
+        "detected_within_30s": 1.0
+      },
+      "speed_subtle": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 5.824870993758761,
+        "ttd_p90_s": 21.473449770867195,
+        "detected_within_10s": 0.69,
+        "detected_within_30s": 0.9525
+      },
+      "_fp_by_legit_kind": {
+        "legit": 0.005719733079122974,
+        "legit_laggy": 0.003105590062111801,
+        "legit_pro": 0.05426356589147287
+      }
+    },
+    "0.05": {
+      "_tau": 0.8751729335504529,
+      "_test_fpr": 0.048666666666666664,
+      "aimbot_blatant": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 3.1209968951135494,
+        "ttd_p90_s": 11.149328491305704,
+        "detected_within_10s": 0.8675,
+        "detected_within_30s": 1.0
+      },
+      "aimbot_subtle": {
+        "detection_rate": 0.98,
+        "ttd_median_s": 16.269596121854164,
+        "ttd_p90_s": 50.10982866061448,
+        "detected_within_10s": 0.3175,
+        "detected_within_30s": 0.745
+      },
+      "speed_blatant": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 1.4403720233262582,
+        "ttd_p90_s": 6.365833793166888,
+        "detected_within_10s": 0.9725,
+        "detected_within_30s": 1.0
+      },
+      "speed_subtle": {
+        "detection_rate": 1.0,
+        "ttd_median_s": 4.483665337288549,
+        "ttd_p90_s": 15.385751618329909,
+        "detected_within_10s": 0.7525,
+        "detected_within_30s": 0.9775
+      },
+      "_fp_by_legit_kind": {
+        "legit": 0.04194470924690181,
+        "legit_laggy": 0.034161490683229816,
+        "legit_pro": 0.13953488372093023
+      }
+    }
+  },
+  "roc": [
+    {
+      "fpr_target": 0.0005,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.6725,
+      "speed_blatant": 1.0,
+      "speed_subtle": 0.985
+    },
+    {
+      "fpr_target": 0.0007927357886906194,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.7125,
+      "speed_blatant": 1.0,
+      "speed_subtle": 0.9875
+    },
+    {
+      "fpr_target": 0.0012568600613418782,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.8175,
+      "speed_blatant": 1.0,
+      "speed_subtle": 0.995
+    },
+    {
+      "fpr_target": 0.0019927159040031887,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.8225,
+      "speed_blatant": 1.0,
+      "speed_subtle": 0.995
+    },
+    {
+      "fpr_target": 0.00315939442759262,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.8775,
+      "speed_blatant": 1.0,
+      "speed_subtle": 0.9975
+    },
+    {
+      "fpr_target": 0.0050091300666847685,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.89,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.00794183334813449,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.9175,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.012591551045765724,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.94,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.019963546298206583,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.9525,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.031651635239541,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.9625,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.05018276804993071,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.98,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.07956335241748048,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.985,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.1261454338590822,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.9875,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    },
+    {
+      "fpr_target": 0.2,
+      "aimbot_blatant": 1.0,
+      "aimbot_subtle": 0.9875,
+      "speed_blatant": 1.0,
+      "speed_subtle": 1.0
+    }
+  ]
+}
